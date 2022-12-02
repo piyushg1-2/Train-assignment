@@ -1,0 +1,74 @@
+
+h1{
+    text-align: center;
+}
+#number-of-seats{
+    width:250px;
+    height:50px;
+    font-size: medium;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+ #submitbtn{
+     width:100px;
+     height:50px;
+     border:none;
+     background-color: blue;
+     color: white;
+     text-transform: capitalize;
+     font-size: medium;
+    }
+.train-seat{
+   
+    height:40px;
+    border:1px solid black;
+    margin:2px;
+    text-align: center;
+    padding-top: 10px;
+}
+.seats{
+    width:30%;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.seats .train-seat{
+    flex-basis: 12.25%;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.app{
+    text-align: center;
+}
+#white{
+    background-color: white;
+}
+#green{
+    background-color: green;
+}
+
+#result{
+  text-align: center;
+  font-size: large;
+ 
+
+}
+#availabilitystatus{
+  text-align: center;
+  font-size: large;
+}
+#leftseat{
+    color:red;
+    font-size: larger;
+
+}
+#currbookedseat{
+    color:red;
+    font-size: larger;
+}
